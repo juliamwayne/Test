@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07A95065-727A-6DD0-C6E5-BEC9F872625B}</ProjectGuid>
+    <ProjectGuid>{C2003FAF-341D-9297-5CD1-E3FD539CF4A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>com.unity.multiplayer-hlapi.Editor</AssemblyName>
@@ -54,24 +54,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/MiniJSON.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerPreview.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkDiscoveryEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkInformationPreview.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerHUDEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkBehaviourInspector.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkLobbyManagerEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkMigrationManagerEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Properties/AssemblyInfo.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/WeaverRunner.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkIdentityEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/TextUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerPreview.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformChildEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkAnimatorEditor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Properties/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/TextUtility.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkScenePostProcess.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformVisualizerEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkLobbyManagerEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformPreview.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkIdentityEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkBehaviourInspector.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkScenePostProcess.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkDiscoveryEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkMigrationManagerEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerHUDEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkManagerEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkInformationPreview.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/NetworkTransformVisualizerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/com.unity.multiplayer-hlapi.Editor.asmdef" />
@@ -695,19 +695,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Runtime.csproj">
-      <Project>{5CCC9527-8635-BC91-A61C-967DA5DDBAC0}</Project>
+      <Project>{C73E12B8-62C6-11D5-23DA-A215CFA607B3}</Project>
       <Name>com.unity.multiplayer-hlapi.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-weaver.Editor.csproj">
-      <Project>{84705EB7-6F16-885A-F0F2-750D6AD6EA7B}</Project>
+      <Project>{4E895C58-0BF4-DCBE-EF74-D1AF66A5C1F9}</Project>
       <Name>com.unity.multiplayer-weaver.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{176F9F23-664F-C39D-ACC7-AA87042F15A0}</Project>
+      <Project>{6019460C-9696-5076-F723-09D7E1600CEB}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{AE28E7CC-B225-B881-D2FA-DFEC1C975C9B}</Project>
+      <Project>{24E2CBDE-9B92-83C0-3912-DAE150FF2F91}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

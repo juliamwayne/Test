@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{84705EB7-6F16-885A-F0F2-750D6AD6EA7B}</ProjectGuid>
+    <ProjectGuid>{4E895C58-0BF4-DCBE-EF74-D1AF66A5C1F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>com.unity.multiplayer-weaver.Editor</AssemblyName>
@@ -53,14 +53,14 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/MessageClassProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/Helpers.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/UNetWeaver.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/AssemblyInfo.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/UNetBehaviourProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/SyncListStructProcessor.cs" />
-    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/Program.cs" />
     <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/MonoBehaviourProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/UNetBehaviourProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/MessageClassProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/Program.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/SyncListStructProcessor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/Helpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library/PackageCache/com.unity.multiplayer-hlapi@1.1.1/Editor/Tools/Weaver/com.unity.multiplayer-weaver.Editor.asmdef" />
@@ -678,11 +678,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{176F9F23-664F-C39D-ACC7-AA87042F15A0}</Project>
+      <Project>{6019460C-9696-5076-F723-09D7E1600CEB}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{AE28E7CC-B225-B881-D2FA-DFEC1C975C9B}</Project>
+      <Project>{24E2CBDE-9B92-83C0-3912-DAE150FF2F91}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
